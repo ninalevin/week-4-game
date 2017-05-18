@@ -1,0 +1,28 @@
+body{
+	background: url("../images/pattern.jpg");
+}
+.jumbotron{
+	text-align: center;
+	margin-top: 10px;
+	background-color: white;
+	border-style: dotted;
+	border-color: red;
+	font-family: 'Pacifico', cursive;
+}
+
+h1 {
+	text-align: center;
+}
+.panel-heading{
+	font-family: 'Pacifico', cursive;
+}
+
+#panelStyle{
+	float:left;
+	margin: 10px 20px 10px 0px;
+	font-family: 'Pacifico', cursive;
+	border-style: dotted;
+	border-color: red;
+	border-width: 2px;
+
+}
