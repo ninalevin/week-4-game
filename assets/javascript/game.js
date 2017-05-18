@@ -54,13 +54,11 @@ function loser(){
 
 
 
-//sets up click for jewels
-    $('#one').on ('click', function(){
+
       total = total + GeneratedNumbers[0];
       console.log("New total= " + total);
       $('#Combined').text(total); 
 
-            //sets win/lose conditions
           if (total == Random){
             yay();
           }
